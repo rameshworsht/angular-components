@@ -1,3 +1,9 @@
-// TODO: create the blog controller
-// check blog.html for hints on what the controller
-// should have/do
+class BlogController {
+    
+    constructor (){
+        this.posts= [{ title: "Game of Thrones", author: "Ram"},
+                    { title: "Game of Thrones", author: "Shyam"}]
+    }
+}
+
+export {BlogController}
